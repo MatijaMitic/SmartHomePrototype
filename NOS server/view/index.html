@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Measurements</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+    </head>
+    <body>
+        <h1>NOS Sensor measurements</h1>
+        <div class="holder">
+            <div id="container" class="containerr"></div>
+            <div id="container1" class="containerr"></div>
+        </div>
+        <div class="holder">
+            <div id="container2" class="containerr"></div>
+            <div id="container3" class="containerr"></div>
+        </div>
+
+        <!-- Modal -->
+        <div id="temperature-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div id="modal-content-temperature" class="modal-content">
+                    <div id="modal-container-temperature" class="modal-body">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="humidity-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div id="modal-content-humidity" class="modal-content">
+                    <div id="modal-container-humidity" class="modal-body">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="pressure-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div id="modal-content-pressure" class="modal-content">
+                    <div id="modal-container-pressure" class="modal-body">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="VOC-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div id="modal-content-VOC" class="modal-content">
+                    <div id="modal-container-VOC" class="modal-body">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="http://code.highcharts.com/stock/highstock.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+        <script src="http://code.highcharts.com/modules/offline-exporting.js"></script>
+        <script src="scripts/dark-unica.js"></script>
+        <script src='scripts/index.js'></script>
+    </body>
+</html>
