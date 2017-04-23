@@ -1,7 +1,7 @@
 # SmartHomePrototype
 SmartHome system implemented using Raspberry Pi & Sunfounder kit.
 <p align="center">
-		<img src="images/architecture.png" width="350"/>
+		<img src="images/architecture.PNG" width="350"/>
 </p>
 System is consisted of two components:
 1)Client component was written in Python using GPIO libraries. This component has two functionalities:
@@ -25,6 +25,6 @@ System is consisted of two components:
 	-mongodb (npm install net)
 	-mongodb (npm install express)
 <p align="center">
-  <img src="20170421_225806.jpg" width="350"/>
-  <img src="20170421_225455.jpg" width="350"/>
+  <img src="images/20170421_225806.jpg" width="350"/>
+  <img src="images/20170421_225455.jpg" width="350"/>
 </p>
