@@ -32,3 +32,18 @@ System is consisted of two components:
 </p>
 <h1>Code description:<h1>
 <h2>Client</h2>
+<p>
+Client is written in Python and consists of several files:
+<b>main.py</b> - Entry point for the application. It imports all other files and starts the sensors and communication with the server component. <br />
+<b>adconverter.py</b> - Implements functions needed to read channels from AD converter.<br />
+<b>buzzer.py</b> - Implements functions needed to start and stop the buzzer.<br />
+<b>connection.py</b> - Implements class that encapsulates socket connection. <br />
+<b>dualled.py</b> - Implements functions needed to start and stop the dual LED, and to alter emitted color. <br />
+<b>flame.py</b> - Implements functions needed to start and stop the flame sensor. <br />
+<b>sound.py</b> - Implements functions needed to start and stop the sound sensor. <br />
+<b>temperature.py</b> - Implements functions needed to start and stop the temperature sensor. <br />
+<b>touch.py</b> - Implements functions needed to start and stop the touch sensor. <br />
+<b>water.py</b> - Implements functions needed to start and stop the water sensor. <br />
+<br />
+All files contain methods that are actually used inside main.py.
+</p>
