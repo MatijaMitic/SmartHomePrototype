@@ -33,7 +33,7 @@ System is consisted of two components:
 <h1>Code description:<h1>
 <h2>Client</h2>
 <p>
-Client is written in Python and consists of several files:
+Client is written in Python and consists of several files:<br />
 <b>main.py</b> - Entry point for the application. It imports all other files and starts the sensors and communication with the server component. <br />
 <b>adconverter.py</b> - Implements functions needed to read channels from AD converter.<br />
 <b>buzzer.py</b> - Implements functions needed to start and stop the buzzer.<br />
