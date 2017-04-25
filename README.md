@@ -30,3 +30,5 @@ System is consisted of two components:
   <img src="images/20170421_225806.jpg" width="350"/>
   <img src="images/20170421_225455.jpg" width="350"/>
 </p>
+<h1>Code description:<h1>
+<h2>Client</h2>
